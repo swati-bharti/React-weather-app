@@ -20,7 +20,7 @@ export default function TempCard({details}){
         <Feed.Event>
           <Feed.Content>
             <h5 className='temp-card-child'>{moment().format('MMMM Do YYYY, h:mm a')}
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{details.weather[0].description}</h5>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{details.weather[0].description}</h5>
 
             <div className = 'temp-card'>
               <div className = 'temp-card-child'>
