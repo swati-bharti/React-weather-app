@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.main{
+  height: 80vh;
+  position: absolute;
+  bottom: 120px;
+  left: 30px;
+  text-align: center;
+  right: 30px;
+
+}
+
+.temp-card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-header{
+  font-size: 25px;
+  margin: 20px;
+}
+
+.temp-card-child{
+  justify-content: center;
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-family: Poppins !important;
+}
+
+.icon-container{
+  position: relative;
+  right: -200px;
+}
+
+.icon-container-forecast{
+  position: relative;
+}
+
+.temp-desc{
+  text-transform: capitalize;
+}
+
+.temp-card-main{
+  width: 350px !important;
+  position: absolute;
+  border-top: 2px solid red !important;
+}
+
+.forecast-header{
+  font-family: Poppins !important;
+  ;
+}
+
+.forecast-card{
+  width: 250px !important;
+  border-top: 2px solid #ffc107 !important;
+}
+
+.footer {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  right: 0;
+}
