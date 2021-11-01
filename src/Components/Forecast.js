@@ -18,6 +18,8 @@ export default function Forecast({latitude, longitude}){
         axios.get(fetchUrl)
         .then((forecastData) => {
             setForecast(forecastData.data.daily)
+            localStorage.removeItem("forecastData")
+            localStorage.setItem("forecastData",JSON.stringify(forecastData.data))
     })},[fetchUrl]);
 
     return (

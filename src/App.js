@@ -21,6 +21,8 @@ export default function App () {
   const fetchDetails = async () => {
     const res = await axios.get(fetchUrl);
     setDetails(res.data)
+    localStorage.removeItem("weatherData")
+    localStorage.setItem("weatherData",JSON.stringify(res.data))
     setisLoading(false)
   };
 
